@@ -32,7 +32,6 @@ class MainApiViewModel @Inject constructor(
 
     init {
         getReceipes(context)
-       // getRecipeDetail(1)
     }
 
     fun getReceipes(context: Application) {
